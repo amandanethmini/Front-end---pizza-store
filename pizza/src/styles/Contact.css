@@ -1,0 +1,103 @@
+.contact {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+.contact .leftSide {
+    height: 100%;
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact .rightSide {
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact .rightSide h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 40px;
+    color: #7A1712;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+
+form input {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #121619;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+
+form textarea {
+    margin-top: 10px;
+    height: 60px;
+    width: 100%;
+    border: 1px solid #121619;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #7A1712;
+}
+
+form label {
+    margin-top: 10px;
+    color: grey;
+}
+
+form button {
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #990F02;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.0rem;
+}
+
+.success-message {
+    color: green;
+    font-size: 0.9rem;
+    margin-top: 0.0rem;
+}

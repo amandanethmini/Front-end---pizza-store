@@ -1,0 +1,31 @@
+.App {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+.dark-mode {
+  background-color: #121619;
+  color: white;
+}
+
+
+
+.toggle-button {
+  padding: 5px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 90%;
+  background-color: black;
+  color: white;
+}

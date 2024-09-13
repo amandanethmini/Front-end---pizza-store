@@ -1,0 +1,26 @@
+.history {
+    padding: 20px;
+}
+
+.history h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #99004C;
+}
+
+.history-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.history-content img {
+    max-width: 40%;
+    margin-right: 20px;
+}
+
+.history-content p {
+    text-align: justify;
+    font-family: 'Monaco';
+    font-size: 150%;
+    color: grey;
+}

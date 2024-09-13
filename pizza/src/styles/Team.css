@@ -1,0 +1,29 @@
+.team {
+    padding: 20px;
+    text-align: center;
+}
+
+.team h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #99004C;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.team-member p {
+    font-size: 1.2em;
+    color: #555;
+    text-align: left;
+}
